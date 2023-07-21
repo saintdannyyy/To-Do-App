@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <button class="btn" onclick="name()">Login</button>
+        <button class="toggle-mode-btn" class="btn" onclick="toggleMode()">Toggle Dark Mode</button>
+        <div class="todo-app">
+            <h2><img src="img/todo.png" alt=""> My To Do List</h2>
+            <div class="row">
+                <input type="text" name="" id="input-box" placeholder="Add your to do item">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <ul id="list-container">
+                <!---<li class="checked">Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li>
+                <li>Task 4</li> -->
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
