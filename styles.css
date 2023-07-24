@@ -16,7 +16,7 @@
     width: 100%;
     max-width: 540px;
     background: #92929e;
-    margin: 100px auto 20px;
+    margin: 150px auto 20px;
     padding: 40px 30px 70px;
     border-radius: 10px;
 }
@@ -115,8 +115,49 @@ ul li span :hover{
     background: #edeef0;
 }
 .toggle-mode-btn{
-    background-color: #504a4a;
+    background-color: #0a0235;
     float: right;
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px;
+    border-radius: 15px;
+    background: #25034b;
+    color: #e7dddd;
+    font-weight: 300;
+}
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+    transition: transform(0.5s);
+}
+.social-icons a:hover{
+    transform: translateY(-5px);
+}
+.fa-whatsapp:hover {
+    color: green;
+}
+.fa-instagram:hover{
+    color: #5f084c;
+}
+.fa-linkedin:hover{
+    color: blue;
+}
+.fa-snapchat:hover{
+    color: yellow;
+}
+.fa-twitter:hover{
+    color: blue;
+}
+.fa-youtube:hover{
+    color: red;
 }
 
 /* Dark Mode Styles */
@@ -124,22 +165,58 @@ ul li span :hover{
     background: #1a1a1a;
     color: #ffffff;
   }
-  
+  .dark-mode .toggle-mode-btn{
+    background-color: #a2a1a3;
+    color: #000;
+  }
+
   .dark-mode .todo-app {
-    background: #444;
+    background: #0a0235;
   }
   .dark-mode .todo-app h2{
-    color: beige;
+    color: rgb(184, 184, 175);
+}
+.dark-mode .row{
+    background-color: #666262;
+}
+
+.dark-mode input{
+    color: rgb(255, 255, 255);
+}
+
+.dark-mode #nameBtn {
+    background: rgb(156, 3, 3);
+    color: rgb(207, 198, 198);
+  }
+  .dark-mode .container{
+    background: linear-gradient(135deg, rgb(26, 24, 143), rgb(0, 11, 39));
+  }
+  .dark-mode .add {
+    background-color: rgb(156, 3, 3);
+  }
 
   
-  .dark-mode ul li::before {
+.dark-mode ul li::before {
     background-image: url(img/unchecked-dark.png);
-  }
+}
   
-  .dark-mode ul li.checked {
+.dark-mode ul li.checked {
     color: #ccc;
-  }
+}
   
-  .dark-mode ul li.checked::before {
+.dark-mode ul li.checked::before {
     background-image: url(img/checked-dark.svg);
-  }
+}
+.btn.clicked {
+      background-color: rgb(123, 60, 206);
+}
+
+@media screen and (max-width: 900px) {
+    .toggle-mode-btn{
+        float: left;
+        margin-top: 10px;
+    }
+    .todo-app{
+        margin-top: 200px;
+    }
+}
