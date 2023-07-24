@@ -1,9 +1,43 @@
 const inputBox = document.getElementById("input-box");
 const listContainer = document.getElementById("list-container");
 
+const nameBtn = document.getElementById("nameBtn");
+let userName = localStorage.getItem("userName");
+
+nameBtn.addEventListener("click", function() {
+    if (!userName) {
+        name();
+    }
+});
+
+nameBtn.addEventListener("dblclick", function() {
+    if (userName) {
+        login();
+    }
+});
+
 function name(){
-    alert("What is your name?");
+    userName = prompt("What is your name?");
+    if (userName) {
+        login();
+        saveData();
+    }
 }
+
+function login() {
+    const loginButton = document.getElementsByClassName('btn')[0];
+    loginButton.innerHTML = "Hello " + userName + ", Welcome to your To-Do App.";
+    loginButton.classList.add('clicked');
+    localStorage.setItem("userName", userName); // Save the userName to localStorage
+}
+
+// Load the saved userName when the page loads
+window.addEventListener("load", function() {
+    if (userName) {
+        login();
+    }
+});
+
 
 function toggleMode() {
     const root = document.documentElement;
