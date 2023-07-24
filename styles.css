@@ -219,4 +219,7 @@ ul li span :hover{
     .todo-app{
         margin-top: 200px;
     }
+    .row{
+        padding-left: 7px;
+    }
 }
