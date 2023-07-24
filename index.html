@@ -5,16 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To Do</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 </head>
 <body>
     <div class="container">
-        <button class="btn" onclick="name()">Login</button>
+        <button class="btn" id="nameBtn">Login</button>
         <button class="toggle-mode-btn" class="btn" onclick="toggleMode()">Toggle Dark Mode</button>
         <div class="todo-app">
             <h2><img src="img/todo.png" alt=""> My To Do List</h2>
             <div class="row">
                 <input type="text" name="" id="input-box" placeholder="Add your to do item">
-                <button onclick="addTask()">Add</button>
+                <button class="add" onclick="addTask()">Add</button>
             </div>
             <ul id="list-container">
                 <!---<li class="checked">Task 1</li>
@@ -23,7 +24,22 @@
                 <li>Task 4</li> -->
             </ul>
         </div>
+    <footer>
+        <div class="copyright">
+            <div class="social-icons">
+                <a href="https://wa.link/qs0n1o" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/saintdannyyy/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/saint-dannyyy-71b06b24a/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.snapchat.com%2Fadd%2Fsaintdannyyy%3Fshare_id%3DP3815X5M9D4%26locale%3Den-GB%26fbclid%3DIwAR1M0T0Vh9ihkAFVcYrwf7ProWXDeoA5gaKdR0enuK-d7Igo6peXDPPUbek&h=AT1vRLX_IJ4Y8htr_AQiaUPQOzJoumxGjOtnzVu0xBAHIR16qZXKs5Oda_PfgEuQjfkl2Nb5-4pNq772YSeS0ASBPKxr7e1ZCrvqgdF9raUNk_M4uDZvu7QOzAqy0w" target="_blank"><i class="fa-brands fa-snapchat"></i></a>
+                <a href="https://twitter.com/saintdannyyy" target="_blank"><i class="fa-brands fa-twitter"></i></i></a>
+                <a href="https://www.youtube.com/channel/UCk0l0ueGQU-1mX0WPgobGuw/featured" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <p>Copyright ⓒ 2023 saintdannyyy</p>
+        </div>
+    </footer>
     </div>
+
+
     <script src="script.js"></script>
 </body>
 </html>
