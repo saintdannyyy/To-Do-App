@@ -219,6 +219,9 @@ ul li span :hover{
     .todo-app{
         margin-top: 200px;
     }
+    .todo-app h2{
+    text-align: center;
+    }
     .row{
         padding-left: 7px;
     }
