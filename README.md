@@ -16,8 +16,8 @@
 
 ### Screenshot
 
-![](./img/dark_mode.pngdark_mode.png)
-![](./img/light.pnglight.png)
+![Dark Mode](img/dark_mode.png)  
+![Light Mode](img/light.png)
 
 ### Links
 
@@ -31,7 +31,6 @@
 - HTML5
 - Vanila CSS
 - Javascript
--
 
 ### What I learned
 
