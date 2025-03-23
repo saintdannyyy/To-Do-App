@@ -1,4 +1,5 @@
-#Todo App solution
+#Frontend Mentor Challenge (2023)
+##Todo App solution
 
 ## Table of contents
 
@@ -27,15 +28,15 @@
 
 ### Built with
 
-- SHTML5 markup
-- CSS custom properties
+- HTML5
+- Vanila CSS
 - Javascript
-- 
+-
+
 ### What I learned
 
-For this project I learnt how to add the toggle dark mode feature.k on this project in the future.**
+For this project I learnt how to add the toggle dark mode feature.k on this project in the future.\*\*
 
 ## Author
 
 - Website - [Addo Daniel Ntiri (https://saintdannyyy.netlify.app)
-- Twitter - [@saintdannyyy](https://www.twitter.com/yourusername)
