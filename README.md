@@ -1,5 +1,6 @@
-#Frontend Mentor Challenge (2023)
-##Todo App solution
+# Frontend Mentor Challenge (2023)
+
+## Todo App solution
 
 ## Table of contents
 
