@@ -21,7 +21,7 @@
 
 ### Links
 
-- Solution URL: (https://to-do-app.netlify.apphttps://github.com/TRESTLE-ACADEMY-GHANA-LBG/to-do-list-saintdannyyy)
+- Solution URL: (https://to-do-app.netlify.app, https://github.com/TRESTLE-ACADEMY-GHANA-LBG/to-do-list-saintdannyyy)
 - Live Site URL: (https://saintdannyyy-to-do-app.netlify.app)
 
 ## My process
