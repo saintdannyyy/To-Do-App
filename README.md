@@ -16,8 +16,8 @@
 
 ### Screenshot
 
-![](./dark_mode.png)
-![](./light.png)
+![](./img/dark_mode.pngdark_mode.png)
+![](./img/light.pnglight.png)
 
 ### Links
 
